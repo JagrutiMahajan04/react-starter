@@ -1,14 +1,13 @@
-import Mango from "./Mango.js"
-import Apple from "./Apple.js" 
+import MyFruits, {Apple,Mango}from "./Fruits.js"
 
 function App(){
+
     return(
         <>
-        <Mango/>
         <Apple/>
+        <Mango/>
+        <MyFruits/>
         </>
-    
-    )
-}
-
-export default App
+    )        
+} 
+ export default App;

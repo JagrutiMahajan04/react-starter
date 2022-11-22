@@ -1,5 +1,14 @@
+import Mango from "./Mango.js"
+import Apple from "./Apple.js" 
+
 function App(){
-    return(<h2>App Component</h2>)
+    return(
+        <>
+        <Mango/>
+        <Apple/>
+        </>
+    
+    )
 }
 
 export default App
